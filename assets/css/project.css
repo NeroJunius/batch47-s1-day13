@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: rgb(150, 131, 131);
+    margin: 0;
+}
+
+.row {
+  width: 600px;
+  display: flex;
+  margin: auto !important;
+}
+
+#projectDescription {
+  resize: none;
+}
+
+input, 
+select, 
+textarea {
+    box-shadow: 2px 4px 8px 1px#636262;
+}
+
+.input-date {
+  margin-left: -10px !important;
+}

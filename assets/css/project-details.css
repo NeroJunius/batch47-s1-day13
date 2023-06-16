@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap');
+
+* {
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: rgb(192, 191, 191);
+    margin: 0;
+}
+
+.btn-info {
+  background-color:  black !important;
+}
+
+.btn-info:hover {
+  cursor: pointer;
+  background: #dbdbdb !important;
+}
+
+.text-justify-01 {
+  text-align: justify;
+}
+
+
+
+ 

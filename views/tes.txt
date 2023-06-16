@@ -1,0 +1,15 @@
+            <div class="btn-group" style="display: flex; width: 100%; justify-content: flex-end">
+              <a class="btn-edit">Edit Post</a>
+              <form
+                action="/blog-delete/{{$index}}"
+                method="POST"
+                style="margin-left: 10px"
+              >
+                <input
+                  type="submit"
+                  class="btn-delete"
+                  value="Delete Post"
+                  style="cursor: pointer"
+                />
+              </form>
+            </div>
